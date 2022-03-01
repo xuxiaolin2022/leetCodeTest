@@ -34,6 +34,11 @@ public class ReverseSingleList {
         System.out.println("------");
     }
 
+    /**
+     * 迭代
+     * @param node
+     * @return
+     */
     public static Node iterate(Node node){
         Node prev = null,next;
         while (node != null){
